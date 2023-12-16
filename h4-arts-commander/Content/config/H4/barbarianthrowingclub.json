@@ -1,0 +1,36 @@
+{
+	"barbarianThrowingClub":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2500,	
+		"text":
+		{
+			"name": "Barbarian Throwing Club",
+			"description": "Increases the commander's Melee and Ranged by 5. Any creature struck by the commander has 20% chance to be stunned.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/barbarianThrowingClub.bmp",
+			"map": "H4/map/BARBARIANTHROWINGCLUB.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 5,
+			},
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val" : 20,
+				"addInfo": [1, 1]
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

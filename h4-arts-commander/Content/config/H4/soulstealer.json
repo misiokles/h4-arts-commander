@@ -1,0 +1,38 @@
+{
+	"soulStealer":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 15000,	
+		"text":
+		{
+			"name": "Soul Stealer",
+			"description": "Increases the commander's Melee Attack and Melee Defense by 4. For every 2 hit points of damage done, the commander gains 1 hit point.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/soulStealer.bmp",
+			"map": "H4/map/SOULSTEALER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 4,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 4,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "LIFE_DRAIN",
+				"val" : 50
+			}
+		]
+	}
+}

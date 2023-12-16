@@ -1,0 +1,35 @@
+{
+	"plateMail":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 100, //yeah it's a crap	
+		"text":
+		{
+			"name": "Plate Mail",
+			"description": "Increases the commander's defense by 10. It also decreases movement and the number of casts by 1. ",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/plateMail.bmp",
+			"map": "H4/map/PLATEMAIL.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 10
+			},
+			{
+				"type": "STACKS_SPEED",
+				"val" : -1
+			},
+			{
+				"type": "CASTS",
+				"val" : -1
+			}
+		]
+	}
+}

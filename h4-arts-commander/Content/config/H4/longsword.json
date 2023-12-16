@@ -1,0 +1,32 @@
+{
+	"longsword":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 250,	
+		"text":
+		{
+			"name": "Longsword",
+			"description": "Increases the commander's melee attack defense by 3",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/longsword.bmp",
+			"map": "H4/map/LONGSWORD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 3
+			}
+		]
+	}
+}

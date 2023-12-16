@@ -1,0 +1,122 @@
+{
+	"armorOfChaos":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Armor of Chaos",
+			"description": "Increases the commander's Defense by 20, and also grants Protection from Water.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/armorOfChaos.bmp",
+			"map": "H4/map/ARMOROFCHAOS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 20
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectWater",
+				"val": 3
+			}
+		]
+	},
+	"armorOfOrder":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Armor of Order",
+			"description": "Increases the commander's Defense by 20, and also grants Protection from Fire.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/armorOfOrder.bmp",
+			"map": "H4/map/ARMOROFORDER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 20
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectFire",
+				"val": 3
+			}
+		]
+	},
+	"armorOfAir":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Armor of Air",
+			"description": "Increases the commander's Defense by 20, and also grants Protection from Earth.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/armorOfAir.bmp",
+			"map": "H4/map/ARMOROFAIR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 20
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectEarth",
+				"val": 3
+			}
+		]
+	},
+	"organicArmor":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Organic Armor",
+			"description": "Increases the commander's Defense by 20, and also grants Protection from Air.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/organicArmor.bmp",
+			"map": "H4/map/ORGANICARMOR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 20
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectAir",
+				"val": 3
+			}
+		]
+	}
+}

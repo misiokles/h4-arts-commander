@@ -1,0 +1,28 @@
+{
+	"dwarvenHammer":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2500,	
+		"text":
+		{
+			"name": "Dwarven Hammer",
+			"description": "Increases a commander's Melee Attack by 10.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/dwarvenHammer.bmp",
+			"map": "H4/map/DWARVENHAMMER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 10,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			}
+		]
+	}
+}

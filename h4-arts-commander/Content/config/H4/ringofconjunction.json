@@ -1,0 +1,29 @@
+{
+	"ringOfNegation":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 15000,	
+		"text":
+		{
+			"name": "Ring of Lesser Negation",
+			"description": "Renders commander immune to dispel and allows to cast positive spells regardless of immunities.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfLesserNegation.bmp",
+			"map": "H4/map/RINGOFLESSERNEGATION.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype" : "spell.dispel"
+			},
+			{
+				"type": "RECEPTIVE"
+			}
+		]
+	}
+}

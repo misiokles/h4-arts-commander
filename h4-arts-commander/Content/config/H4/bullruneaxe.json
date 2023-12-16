@@ -1,0 +1,28 @@
+{
+	"bullRuneAxe":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 25000,	
+		"text":
+		{
+			"name": "Bull Rune Battleaxe",
+			"description": "Increases the commander's damage by 50%",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/bullRuneAxe.bmp",
+			"map": "H4/map/BULLRUNEAXE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 50,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

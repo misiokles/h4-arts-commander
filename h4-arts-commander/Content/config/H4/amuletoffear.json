@@ -1,0 +1,25 @@
+{
+	"amuletOfFear":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 7200,	
+		"text":
+		{
+			"name": "Amulet of Fear",
+			"description": "Gives the commander the No Retaliation ability.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/amuletofFear.bmp",
+			"map": "H4/map/AMULETOFFEAR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "BLOCKS_RETALIATION"
+			}
+		]
+	}
+}

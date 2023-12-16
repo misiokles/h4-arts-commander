@@ -1,0 +1,31 @@
+{
+	"emeraldLongbow":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Emerald Longbow",
+			"description": "Increases the commander's Ranged Attack by 30",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/emeraldLongbow.bmp",
+			"map": "H4/map/EMERALDLONGBOW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 30,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

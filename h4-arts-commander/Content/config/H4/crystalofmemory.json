@@ -1,0 +1,26 @@
+{
+	"crystalOfMemory":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Crystal of Memory",
+			"description": "Allows the Commander to cast 2 additional times.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/crystalOfMemory.bmp",
+			"map": "H4/map/CRYSTALOFMEMORY.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CASTS",
+				"val": 2
+			}
+		]
+	}
+}

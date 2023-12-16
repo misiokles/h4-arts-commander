@@ -1,0 +1,38 @@
+{
+	"thunderHammer":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Thunder Hammer",
+			"description": "Increases the commander's Melee Attack skill by 8, and grants ability to cast Titan's Thunder upon strike.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/thunderHammer.bmp",
+			"map": "H4/map/THUNDERHAMMER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 8
+			},
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.titanBolt",
+				"val" : 100,
+				"addInfo": [2, 2]
+			},
+			{
+				"type": "SPECIFIC_SPELL_POWER", //just make sure no mods cna alter it
+				"subtype": "spell.titanBolt",
+				"val" : 600
+			}
+		]
+	}
+}

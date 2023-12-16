@@ -1,0 +1,27 @@
+{
+	"arrowofslaying":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Arrow of Slaying",
+			"description": "Gives the commander the Slayer ability during ranged attacks",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/arrowofslaying.bmp",
+			"map": "H4/map/ARROWOFSLAYING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SLAYER",
+				"val": 3,
+				"effectRange" : "ONLY_DISTANCE_FIGHT"
+			}
+		]
+	}
+}

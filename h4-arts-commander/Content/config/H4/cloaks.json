@@ -1,0 +1,98 @@
+{
+	"cloakOfWarding":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 1000,	
+		"text":
+		{
+			"name": "Cloak of Warding",
+			"description": "Reduces damage dealt to Commander by spells by 20%.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/cloakOfWarding.bmp",
+			"map": "H4/map/CLOAKOFWARDING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 20
+			}
+		]
+	},
+	"capeOfProtection":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Cape of Protection",
+			"description": "Reduces damage dealt to Commander by spells by 30%.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/capeOfProtection.bmp",
+			"map": "H4/map/CAPEOFPROTECTION.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 30
+			}
+		]
+	},
+	"cowlOfResistance":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Cowl of Resistance",
+			"description": "Reduces damage dealt to Commander by spells by 50%.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/cowlOfResistance.bmp",
+			"map": "H4/map/COWLOFRESISTANCE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 50
+			}
+		]
+	},
+	"mantleOfSpellTurning":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Mantle of Spell Turning",
+			"description": "Reduces damage dealt to Commander by spells by 75%.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/mantleOfSpellTurning.bmp",
+			"map": "H4/map/MANTLEOFSPELLTURNING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 75
+			}
+		]
+	}
+}

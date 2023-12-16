@@ -1,0 +1,26 @@
+{
+	"neenersInvulnerableCloak":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 25000,	
+		"text":
+		{
+			"name": "Neener's Invulnerable Cloak",
+			"description": "The commander gains 100% magic resistance",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/neeners.bmp",
+			"map": "H4/map/NEENERS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "MAGIC_RESISTANCE",
+				"val" : 100
+			}
+		]
+	}
+}

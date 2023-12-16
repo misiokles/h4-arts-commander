@@ -1,0 +1,31 @@
+{
+	"warSling":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2500,	
+		"text":
+		{
+			"name": "War Sling",
+			"description": "Increases the commander's Ranged Attack by 10.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/warSling.bmp",
+			"map": "H4/map/WARSLING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 10,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

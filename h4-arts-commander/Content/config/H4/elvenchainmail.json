@@ -1,0 +1,27 @@
+{
+	"elvenChainmail":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Elven Chainmail",
+			"description": "Increases the commander's Defense by 10",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/elvenChainmail.bmp",
+			"map": "H4/map/ELVENCHAINMAIL.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 10
+			}
+		]
+	}
+}

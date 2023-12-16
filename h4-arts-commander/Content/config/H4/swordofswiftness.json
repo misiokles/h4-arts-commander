@@ -1,0 +1,39 @@
+{
+	"swordOfSwiftness":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 12500,	
+		"text":
+		{
+			"name": "Sword of Swiftness",
+			"description": "Increases the hero's Melee Attack and Melee Defense by 6. The hero also gains an extra melee attack.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/swordOfSwiftness.bmp",
+			"map": "H4/map/SWORDOFSWIFTNESS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 6,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 6,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"griffinHelmet":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Griffin Helmet",
+			"description": "The commander can retaliate unlimited number of times.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/griffinHelmet.bmp",
+			"map": "H4/map/GRIFFINHELMET.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "UNLIMITED_RETALIATIONS"
+			}
+		]
+	}
+}

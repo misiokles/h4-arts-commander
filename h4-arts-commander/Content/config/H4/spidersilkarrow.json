@@ -1,0 +1,28 @@
+{
+	"spidersSilkArrow":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 1000,	
+		"text":
+		{
+			"name": "Spider's Silk Arrow",
+			"description": "Casts Weakness on enemy targets struck by a ranged attack.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/spidersSilkArrow.bmp",
+			"map": "H4/map/SPIDERSSILKARROW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.weakness",
+				"val" : 100,
+				"addInfo": [2, 1]
+			}
+		]
+	}
+}

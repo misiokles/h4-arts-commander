@@ -1,0 +1,34 @@
+{
+	"snipersCrossbow":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Sniper's Crossbow",
+			"description": "Increases the commander's Ranged Attack by 8 and removes all range penalties.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/snipersCrossbow.bmp",
+			"map": "H4/map/SNIPERSCROSSBOW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 8,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			{
+				"type": "NO_DISTANCE_PENALTY",
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

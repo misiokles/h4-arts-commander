@@ -1,0 +1,28 @@
+{
+	"helmOfDispel":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Helm of Dispel",
+			"description": "Grants commander ability to dispel all spells from target stack",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/helmOfDispel.bmp",
+			"map": "H4/map/HELMOFDISPEL.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.dispel",
+				"val" : 100,
+				"addInfo" : [0, 0]
+			}
+		]
+	}
+}

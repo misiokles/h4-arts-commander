@@ -1,0 +1,30 @@
+{
+	"spearOfTheCentaur":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Spear of the Centaur",
+			"description": "Increases the commander's Melee and Ranged Attack by 8.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/spearOfTheCentaur.bmp",
+			"map": "H4/map/SPEAROFTHECENTAUR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 8,
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

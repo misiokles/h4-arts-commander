@@ -1,0 +1,38 @@
+{
+	"halberdOfTheSwiftwatch":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 15000,	
+		"text":
+		{
+			"name": "Halberd of the Swiftwatch",
+			"description": "Increases a commander's Melee Attack by 25, increases speed by 1, and stops enemies from retaliating. The commander can also attack 2 hexes in a row.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/halberdOfTheSwiftwatch.bmp",
+			"map": "H4/map/HALBERDOFTHESWIFTWATCH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 25,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "STACKS_SPEED",
+				"val" : 1
+			},
+			{
+				"type": "BLOCKS_RETALIATION"
+			},
+			{
+				"type": "TWO_HEX_ATTACK_BREATH"
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"deadwoodStaff":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Deadwood Staff",
+			"description": "Attacked enemies will loose units whose total level is equal to twice the commander's level.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/deadwoodStaff.bmp",
+			"map": "H4/map/DEADWOODSTAFF.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "DEATH_STARE",
+				"subtype": "deathStareCommander",
+				"val": 2 
+			}
+		]
+	}
+}

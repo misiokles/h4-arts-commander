@@ -1,0 +1,27 @@
+{
+	"flamingArrow":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 12500,	
+		"text":
+		{
+			"name": "Flaming Arrow",
+			"description": "Commander's ranged attacks explode into a fireball",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/flamingArrow.bmp",
+			"map": "H4/map/FLAMINGARROW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireball",
+				"val" : 3
+			}
+		]
+	}
+}

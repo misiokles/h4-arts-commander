@@ -1,0 +1,27 @@
+{
+	"adamantineArmor":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Adamantine Armor",
+			"description": "Increases the commander's Defense by 50",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/adamantineArmor.bmp",
+			"map": "H4/map/ADAMANTINEARMOR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 50
+			}
+		]
+	}
+}

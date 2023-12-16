@@ -1,0 +1,33 @@
+{
+	"angelsBlade":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Angel's Blade",
+			"description": "Increases the commander's Attack skill by 3, and grants ability to cast Destroy Undead upon strike.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/angelsBlade.bmp",
+			"map": "H4/map/ANGELSBLADE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 3
+			},
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.destroyUndead",
+				"val" : 100,
+				"addInfo": [1, 2]
+			}
+		]
+	}
+}

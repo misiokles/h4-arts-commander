@@ -1,0 +1,27 @@
+{
+	"ringOfStrength":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 2500,	
+		"text":
+		{
+			"name": "Ring of Strength",
+			"description": "Increases the commander's Attack by 5",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfStrength.bmp",
+			"map": "H4/map/RINGOFSTRENGTH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 5
+			}
+		]
+	}
+}

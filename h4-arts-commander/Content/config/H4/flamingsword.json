@@ -1,0 +1,40 @@
+{
+	"flamingSword":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Flaming Sword",
+			"description": "Increases the commander's melee Attack and Defense by 3. In addition, commander does 30% more damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/flamingSword.bmp",
+			"map": "H4/map/FLAMINGSWORD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "attack",
+				"val": 3,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val": 3,
+				"effectRange": "ONLY_MELEE_FIGHT"
+			},
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 30,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

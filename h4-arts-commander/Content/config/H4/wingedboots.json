@@ -1,0 +1,25 @@
+{
+	"wingedBoots":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Winged Boots",
+			"description": "Gives the commander ability to fly.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/wingedBoots.bmp",
+			"map": "H4/map/WINGEDBOOTS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "FLYING"
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"gryphonheartsPlateMail":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Gryphonheart's Plate Mail",
+			"description": "Increases the commander's Defense by 30",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/gryphonhearts.bmp",
+			"map": "H4/map/GRYPHONHEARTS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 30
+			}
+		]
+	}
+}

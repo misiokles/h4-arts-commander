@@ -1,0 +1,37 @@
+{
+	"valdersCrossbowOfSloth":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Valder's Crossbow of Sloth",
+			"description": "Increases the commander's Ranged Attack by 5. Any target the commander strikes with a ranged attack will suffer from the effects of the Slow spell",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/valdersCrossbowOfSloth.bmp",
+			"map": "H4/map/VALDERSCROSSBOWOFSLOTH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 5,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.slow",
+				"val" : 100,
+				"addInfo": [2, 1]
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

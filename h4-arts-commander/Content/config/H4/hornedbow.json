@@ -1,0 +1,28 @@
+{
+	"hornedBow":
+	{
+		"type": ["COMMANDER"],
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Horned Bow",
+			"description": "Increases the commander's Ranged Attack by 50",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/hornedBow.bmp",
+			"map": "H4/map/HORNEDBOW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 50,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			}
+		]
+	}
+}

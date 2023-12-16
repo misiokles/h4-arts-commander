@@ -1,0 +1,28 @@
+{
+	"arrowofstunning":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Arrow of Stunning",
+			"description": "The commander's ranged attack has 20% chance of stunning the target.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/arrowofstunning.bmp",
+			"map": "H4/map/ARROWOFSTUNNING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val" : 20,
+				"addInfo": [1, 1]
+			}
+		]
+	}
+}

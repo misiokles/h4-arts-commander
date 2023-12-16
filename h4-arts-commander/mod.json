@@ -1,0 +1,67 @@
+{
+	"name" : "H4 artifacts - commanders",
+	"description" : "Artifacts from Heroes of Might & Magic 4",
+	"author": "Graphics: Kuririn, mod : Warmonger",
+	"contact": "http://forum.vcmi.eu/viewtopic.php?t=686",
+	"version" : "1.03",
+	"modType" : "Artifacts",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	"changelog" :
+	{
+		"1.03"   : [ "Update to vcmi-1.4 format" ],
+		"1.00"   : [ "Initial release" ]
+	},
+	"artifacts" :
+	[
+		"config/H4/thunderhammer.json",
+		"config/H4/elvenchainmail.json",
+		"config/H4/longsword.json",
+		"config/H4/arrowofslaying.json",
+		"config/H4/arrowofstunning.json",
+		"config/H4/griffinhelmet.json",
+		"config/H4/breastplateofregeneration.json",
+		"config/H4/scalemailofstrength.json",
+		"config/H4/flamingarrow.json",
+		"config/H4/bullruneaxe.json",
+		"config/H4/hornedbow.json",
+		"config/H4/helmOfDispel.json",
+		"config/H4/amuletoffear.json",
+		"config/H4/wingedboots.json",
+		"config/H4/adamantinearmor.json",
+		"config/H4/neeners.json",
+		"config/H4/gryphonhearts.json",
+		"config/H4/platemail.json",
+		"config/H4/ringofconjunction.json",
+		"config/H4/elementalarmors.json",
+		"config/H4/ringofstrength.json",
+		"config/H4/angelsblade.json",
+		"config/H4/flamingsword.json",
+		"config/H4/soulstealer.json",
+		"config/H4/swordofswiftness.json",
+		"config/H4/halberdoftheswiftwatch.json",
+		"config/H4/ringofcobraseye.json",
+		"config/H4/nomadsblackbow.json",
+		"config/H4/emeraldlongbow.json",
+		"config/H4/valderscrossbowofsloth.json",
+		"config/H4/crossbow.json",
+		"config/H4/sniperscrossbow.json",
+		"config/H4/warsling.json",
+		"config/H4/spearofthecentaur.json",
+		"config/H4/barbarianthrowingclub.json",
+		"config/H4/spidersilkarrow.json",
+		"config/H4/dwarvenhammer.json",
+		"config/H4/deadwoodstaff.json",
+		"config/H4/crystalofmemory.json",
+		"config/H4/cloaks.json"
+	],
+	"settings" :
+	{
+		"modules" :
+		{
+			"commanders" : true
+		}
+	}
+}

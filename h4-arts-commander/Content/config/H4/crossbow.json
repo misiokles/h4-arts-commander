@@ -1,0 +1,34 @@
+{
+	"crossbow":
+	{
+		"type": ["COMMANDER"],
+		"class": "TREASURE",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Crossbow",
+			"description": "Increases the commander's Ranged Attack by 3 and removes all range penalties.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/crossbow.bmp",
+			"map": "H4/map/CROSSBOW.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 3,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+			{
+				"type": "NO_DISTANCE_PENALTY",
+			},
+			{
+				"type": "SHOOTER"
+			}
+		]
+	}
+}

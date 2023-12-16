@@ -1,0 +1,31 @@
+{
+	"breastplateOfRegeneration":
+	{
+		"type": ["COMMANDER"],
+		"class": "MAJOR",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Breastplate of Regeneration",
+			"description": "Increases the commander's Defense by 20, and also regenerates 50 hit points each turn.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/breastPlateOfRegeneration.bmp",
+			"map": "H4/map/BREASTPLATEOFREGENERATION.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 20
+			},
+			{
+				"type": "HP_REGENERATION",
+				"val": 50
+			}
+		]
+	}
+}

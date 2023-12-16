@@ -1,0 +1,28 @@
+{
+	"ringOfCobrasEye":
+	{
+		"type": ["COMMANDER"],
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Ring of the Cobra's Eye",
+			"description": "Creatures struck by the commander during combat are Poisoned.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfTheCobrasEye.bmp",
+			"map": "H4/map/RINGOFTHECOBRASEYE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.poison",
+				"val" : 100,
+				"addInfo" : [0, 0]
+			}
+		]
+	}
+}
