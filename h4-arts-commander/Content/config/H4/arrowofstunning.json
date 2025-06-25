@@ -13,16 +13,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/arrowofstunning.bmp",
-			"map": "H4/map/ARROWOFSTUNNING.def"
+			"map": "H4/map/ARROWOFSTUNNING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"paralyze" :
 			{
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.paralyze",
 				"val" : 20,
 				"addInfo": [1, 1]
 			}
-		]
+		}
 	}
 }

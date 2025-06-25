@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/deadwoodStaff.bmp",
-			"map": "H4/map/DEADWOODSTAFF.def"
+			"map": "H4/map/DEADWOODSTAFF.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"deathStare" :
 			{
 				"type": "DEATH_STARE",
 				"subtype": "deathStareCommander",
 				"val": 2 
 			}
-		]
+		}
 	}
 }

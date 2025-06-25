@@ -13,26 +13,31 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/halberdOfTheSwiftwatch.bmp",
-			"map": "H4/map/HALBERDOFTHESWIFTWATCH.def"
+			"map": "H4/map/HALBERDOFTHESWIFTWATCH.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 25,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"stackSpeed" :
 			{
 				"type": "STACKS_SPEED",
 				"val" : 1
 			},
+			"blockRetaliation" :
 			{
 				"type": "BLOCKS_RETALIATION"
 			},
+			"twoHexAttack" :
 			{
 				"type": "TWO_HEX_ATTACK_BREATH"
 			}
-		]
+		}
 	}
 }

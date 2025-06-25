@@ -13,16 +13,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/spidersSilkArrow.bmp",
-			"map": "H4/map/SPIDERSSILKARROW.def"
+			"map": "H4/map/SPIDERSSILKARROW.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"weakness" :
 			{
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.weakness",
 				"val" : 100,
 				"addInfo": [2, 1]
 			}
-		]
+		}
 	}
 }

@@ -13,23 +13,27 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/plateMail.bmp",
-			"map": "H4/map/PLATEMAIL.def"
+			"map": "H4/map/PLATEMAIL.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 10
 			},
+			"-speed" :
 			{
 				"type": "STACKS_SPEED",
 				"val" : -1
 			},
+			"casts" :
 			{
 				"type": "CASTS",
 				"val" : -1
 			}
-		]
+		}
 	}
 }

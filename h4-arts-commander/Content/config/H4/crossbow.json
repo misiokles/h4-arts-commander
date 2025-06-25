@@ -13,22 +13,26 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/crossbow.bmp",
-			"map": "H4/map/CROSSBOW.def"
+			"map": "H4/map/CROSSBOW.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 3,
 				"effectRange": "ONLY_DISTANCE_FIGHT"
 			},
+			"noDistancePenalty" :
 			{
 				"type": "NO_DISTANCE_PENALTY",
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

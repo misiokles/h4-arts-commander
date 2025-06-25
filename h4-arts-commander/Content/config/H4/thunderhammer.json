@@ -13,26 +13,30 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/thunderHammer.bmp",
-			"map": "H4/map/THUNDERHAMMER.def"
+			"map": "H4/map/THUNDERHAMMER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 8
 			},
+			"titanBolt" :
 			{
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.titanBolt",
 				"val" : 100,
 				"addInfo": [2, 2]
 			},
+			"spellPower" :
 			{
 				"type": "SPECIFIC_SPELL_POWER", //just make sure no mods cna alter it
 				"subtype": "spell.titanBolt",
 				"val" : 600
 			}
-		]
+		}
 	}
 }

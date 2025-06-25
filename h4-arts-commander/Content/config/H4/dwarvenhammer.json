@@ -13,16 +13,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/dwarvenHammer.bmp",
-			"map": "H4/map/DWARVENHAMMER.def"
+			"map": "H4/map/DWARVENHAMMER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 10,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			}
-		]
+		}
 	}
 }

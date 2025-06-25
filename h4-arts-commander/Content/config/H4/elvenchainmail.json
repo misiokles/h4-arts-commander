@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/elvenChainmail.bmp",
-			"map": "H4/map/ELVENCHAINMAIL.def"
+			"map": "H4/map/ELVENCHAINMAIL.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 10
 			}
-		]
+		}
 	}
 }

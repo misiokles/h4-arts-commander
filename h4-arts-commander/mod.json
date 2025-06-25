@@ -3,14 +3,15 @@
 	"description" : "Artifacts from Heroes of Might & Magic 4",
 	"author": "Graphics: Kuririn, mod : Warmonger",
 	"contact": "http://forum.vcmi.eu/viewtopic.php?t=686",
-	"version" : "1.03",
+	"version" : "1.04",
 	"modType" : "Artifacts",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.7.0"
 	},
 	"changelog" :
 	{
+		"1.04"   : [ "Update to vcmi-1.7 format" ],
 		"1.03"   : [ "Update to vcmi-1.4 format" ],
 		"1.00"   : [ "Initial release" ]
 	},

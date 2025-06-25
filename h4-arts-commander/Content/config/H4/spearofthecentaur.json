@@ -13,18 +13,21 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/spearOfTheCentaur.bmp",
-			"map": "H4/map/SPEAROFTHECENTAUR.def"
+			"map": "H4/map/SPEAROFTHECENTAUR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 8,
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/adamantineArmor.bmp",
-			"map": "H4/map/ADAMANTINEARMOR.def"
+			"map": "H4/map/ADAMANTINEARMOR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 50
 			}
-		]
+		}
 	}
 }

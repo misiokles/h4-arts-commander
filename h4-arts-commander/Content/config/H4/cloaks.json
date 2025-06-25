@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/cloakOfWarding.bmp",
-			"map": "H4/map/CLOAKOFWARDING.def"
+			"map": "H4/map/CLOAKOFWARDING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamageReduction" :
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 20
 			}
-		]
+		}
 	},
 	"capeOfProtection":
 	{
@@ -37,15 +39,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/capeOfProtection.bmp",
-			"map": "H4/map/CAPEOFPROTECTION.def"
+			"map": "H4/map/CAPEOFPROTECTION.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamageReduction" :
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 30
 			}
-		]
+		}
 	},
 	"cowlOfResistance":
 	{
@@ -61,15 +65,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/cowlOfResistance.bmp",
-			"map": "H4/map/COWLOFRESISTANCE.def"
+			"map": "H4/map/COWLOFRESISTANCE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamageReduction" :
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 50
 			}
-		]
+		}
 	},
 	"mantleOfSpellTurning":
 	{
@@ -85,14 +91,16 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/mantleOfSpellTurning.bmp",
-			"map": "H4/map/MANTLEOFSPELLTURNING.def"
+			"map": "H4/map/MANTLEOFSPELLTURNING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamageReduction" :
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 75
 			}
-		]
+		}
 	}
 }

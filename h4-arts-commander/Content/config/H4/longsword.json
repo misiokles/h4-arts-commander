@@ -13,20 +13,23 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/longsword.bmp",
-			"map": "H4/map/LONGSWORD.def"
+			"map": "H4/map/LONGSWORD.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 3
 			},
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			}
-		]
+		}
 	}
 }

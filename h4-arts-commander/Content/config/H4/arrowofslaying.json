@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/arrowofslaying.bmp",
-			"map": "H4/map/ARROWOFSLAYING.def"
+			"map": "H4/map/ARROWOFSLAYING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"slayer" :
 			{
 				"type": "SLAYER",
 				"val": 3,
 				"effectRange" : "ONLY_DISTANCE_FIGHT"
 			}
-		]
+		}
 	}
 }

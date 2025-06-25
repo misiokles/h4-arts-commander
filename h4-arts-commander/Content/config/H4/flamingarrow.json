@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/flamingArrow.bmp",
-			"map": "H4/map/FLAMINGARROW.def"
+			"map": "H4/map/FLAMINGARROW.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"fireballs" :
 			{
 				"type": "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireball",
 				"val" : 3
 			}
-		]
+		}
 	}
 }

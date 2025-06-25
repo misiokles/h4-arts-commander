@@ -13,19 +13,22 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/warSling.bmp",
-			"map": "H4/map/WARSLING.def"
+			"map": "H4/map/WARSLING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 10,
 				"effectRange": "ONLY_DISTANCE_FIGHT"
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

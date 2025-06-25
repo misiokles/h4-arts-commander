@@ -13,13 +13,15 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/griffinHelmet.bmp",
-			"map": "H4/map/GRIFFINHELMET.def"
+			"map": "H4/map/GRIFFINHELMET.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"unlimitedRetaliations" :
 			{
 				"type": "UNLIMITED_RETALIATIONS"
 			}
-		]
+		}
 	}
 }

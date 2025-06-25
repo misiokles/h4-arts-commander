@@ -13,21 +13,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/angelsBlade.bmp",
-			"map": "H4/map/ANGELSBLADE.def"
+			"map": "H4/map/ANGELSBLADE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 3
 			},
+			"destroyUndead" :
 			{
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.destroyUndead",
 				"val" : 100,
 				"addInfo": [1, 2]
 			}
-		]
+		}
 	}
 }

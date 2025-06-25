@@ -13,13 +13,15 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/amuletofFear.bmp",
-			"map": "H4/map/AMULETOFFEAR.def"
+			"map": "H4/map/AMULETOFFEAR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"noRetaliation" :
 			{
 				"type": "BLOCKS_RETALIATION"
 			}
-		]
+		}
 	}
 }

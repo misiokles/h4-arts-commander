@@ -13,13 +13,15 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/wingedBoots.bmp",
-			"map": "H4/map/WINGEDBOOTS.def"
+			"map": "H4/map/WINGEDBOOTS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"flying" :
 			{
 				"type": "FLYING"
 			}
-		]
+		}
 	}
 }

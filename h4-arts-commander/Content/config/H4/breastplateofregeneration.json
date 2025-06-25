@@ -13,19 +13,22 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/breastPlateOfRegeneration.bmp",
-			"map": "H4/map/BREASTPLATEOFREGENERATION.def"
+			"map": "H4/map/BREASTPLATEOFREGENERATION.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 20
 			},
+			"hp" :
 			{
 				"type": "HP_REGENERATION",
 				"val": 50
 			}
-		]
+		}
 	}
 }

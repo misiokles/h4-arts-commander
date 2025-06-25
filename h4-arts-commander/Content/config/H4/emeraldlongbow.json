@@ -13,19 +13,22 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/emeraldLongbow.bmp",
-			"map": "H4/map/EMERALDLONGBOW.def"
+			"map": "H4/map/EMERALDLONGBOW.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 30,
 				"effectRange": "ONLY_DISTANCE_FIGHT"
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

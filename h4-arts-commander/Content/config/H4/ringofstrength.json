@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfStrength.bmp",
-			"map": "H4/map/RINGOFSTRENGTH.def"
+			"map": "H4/map/RINGOFSTRENGTH.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 5
 			}
-		]
+		}
 	}
 }

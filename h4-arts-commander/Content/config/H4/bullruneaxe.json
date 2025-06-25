@@ -13,16 +13,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/bullRuneAxe.bmp",
-			"map": "H4/map/BULLRUNEAXE.def"
+			"map": "H4/map/BULLRUNEAXE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"creatureDamage" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 50,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

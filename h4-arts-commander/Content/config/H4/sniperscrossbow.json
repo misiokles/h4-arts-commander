@@ -13,22 +13,26 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/snipersCrossbow.bmp",
-			"map": "H4/map/SNIPERSCROSSBOW.def"
+			"map": "H4/map/SNIPERSCROSSBOW.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 8,
 				"effectRange": "ONLY_DISTANCE_FIGHT"
 			},
+			"noDistancePenalty" :
 			{
 				"type": "NO_DISTANCE_PENALTY",
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

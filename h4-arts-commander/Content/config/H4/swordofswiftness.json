@@ -13,27 +13,31 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/swordOfSwiftness.bmp",
-			"map": "H4/map/SWORDOFSWIFTNESS.def"
+			"map": "H4/map/SWORDOFSWIFTNESS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 6,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 6,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"plusAttack" :
 			{
 				"type": "ADDITIONAL_ATTACK",
 				"val" : 1,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			}
-		]
+		}
 	}
 }

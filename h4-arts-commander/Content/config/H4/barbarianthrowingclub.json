@@ -13,24 +13,28 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/barbarianThrowingClub.bmp",
-			"map": "H4/map/BARBARIANTHROWINGCLUB.def"
+			"map": "H4/map/BARBARIANTHROWINGCLUB.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "attack",
 				"val" : 5,
 			},
+			"paralyze":
 			{
 				"type": "SPELL_AFTER_ATTACK",
 				"subtype": "spell.paralyze",
 				"val" : 20,
 				"addInfo": [1, 1]
 			},
+			"shooter" :
 			{
 				"type": "SHOOTER"
 			}
-		]
+		}
 	}
 }

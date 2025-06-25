@@ -13,21 +13,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/armorOfChaos.bmp",
-			"map": "H4/map/ARMOROFCHAOS.def"
+			"map": "H4/map/ARMOROFCHAOS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 20
 			},
+			"protectWater" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectWater",
 				"val": 3
 			}
-		]
+		}
 	},
 	"armorOfOrder":
 	{
@@ -43,21 +46,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/armorOfOrder.bmp",
-			"map": "H4/map/ARMOROFORDER.def"
+			"map": "H4/map/ARMOROFORDER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 20
 			},
+			"protectFire" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectFire",
 				"val": 3
 			}
-		]
+		}
 	},
 	"armorOfAir":
 	{
@@ -73,21 +79,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/armorOfAir.bmp",
-			"map": "H4/map/ARMOROFAIR.def"
+			"map": "H4/map/ARMOROFAIR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 20
 			},
+			"protectEarth" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectEarth",
 				"val": 3
 			}
-		]
+		}
 	},
 	"organicArmor":
 	{
@@ -103,20 +112,23 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/organicArmor.bmp",
-			"map": "H4/map/ORGANICARMOR.def"
+			"map": "H4/map/ORGANICARMOR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 20
 			},
+			"protectAir" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectAir",
 				"val": 3
 			}
-		]
+		}
 	}
 }

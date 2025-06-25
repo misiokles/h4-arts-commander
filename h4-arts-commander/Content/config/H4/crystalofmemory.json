@@ -13,14 +13,16 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/crystalOfMemory.bmp",
-			"map": "H4/map/CRYSTALOFMEMORY.def"
+			"map": "H4/map/CRYSTALOFMEMORY.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"casts" :
 			{
 				"type": "CASTS",
 				"val": 2
 			}
-		]
+		}
 	}
 }

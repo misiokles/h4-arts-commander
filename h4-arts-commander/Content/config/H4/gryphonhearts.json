@@ -13,15 +13,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/gryphonhearts.bmp",
-			"map": "H4/map/GRYPHONHEARTS.def"
+			"map": "H4/map/GRYPHONHEARTS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype" : "defence",
 				"val" : 30
 			}
-		]
+		}
 	}
 }

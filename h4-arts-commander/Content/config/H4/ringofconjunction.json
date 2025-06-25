@@ -13,17 +13,20 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfLesserNegation.bmp",
-			"map": "H4/map/RINGOFLESSERNEGATION.def"
+			"map": "H4/map/RINGOFLESSERNEGATION.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"dispel" :
 			{
 				"type": "SPELL_IMMUNITY",
 				"subtype" : "spell.dispel"
 			},
+			"receptive" :
 			{
 				"type": "RECEPTIVE"
 			}
-		]
+		}
 	}
 }

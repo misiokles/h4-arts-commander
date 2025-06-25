@@ -13,28 +13,32 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/flamingSword.bmp",
-			"map": "H4/map/FLAMINGSWORD.def"
+			"map": "H4/map/FLAMINGSWORD.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 3,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"creatureDamage" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
 				"val" : 30,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

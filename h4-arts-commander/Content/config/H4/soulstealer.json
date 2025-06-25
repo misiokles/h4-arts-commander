@@ -13,26 +13,30 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/soulStealer.bmp",
-			"map": "H4/map/SOULSTEALER.def"
+			"map": "H4/map/SOULSTEALER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 4,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 4,
 				"effectRange": "ONLY_MELEE_FIGHT"
 			},
+			"lifeDrain" :
 			{
 				"type": "LIFE_DRAIN",
 				"val" : 50
 			}
-		]
+		}
 	}
 }
